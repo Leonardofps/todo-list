@@ -1,0 +1,47 @@
+.wrapper {
+  padding: 0 16px;
+}
+
+.formAddToDo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: calc(0px - 1.5rem - 6px);
+}
+
+.formAddToDo input {
+  width: 40rem;
+  height: 3.375rem;
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  padding-left: 1rem;
+  color: var(--gray-300);
+}
+
+.formAddToDo button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5.625rem;
+  height: 3.25rem;
+  border-radius: 8px;
+  border: 0;
+  background-color: var(--blue-dark);
+  color: var(--gray-100);
+  font-weight: 700;
+  margin-left: 8px;
+  transition: background-color 0.2s;
+  cursor: pointer;
+
+  padding: 0 1rem;
+}
+
+.formAddToDo button:hover {
+  background-color: var(--blue);
+}
+
+.formAddToDo button svg {
+  margin-left: 8px;
+}
